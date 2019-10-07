@@ -1,0 +1,41 @@
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body >
+        <table class="bdy">
+            <tr>
+                
+                <td colspan = 3><input type="text" id="txt"></td>
+                <td><input type="button"  value="C" onclick="clearval()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="valuess(1);"></td>
+                <td><input type="button" value="2" onclick="valuess(2)"></td>
+                <td><input type="button" value="3" onclick="valuess(3)"></td>
+                <td><input type="button" value="+" class="btn" onclick="addition()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="valuess(4)"></td>
+                <td><input type="button" value="5" onclick="valuess(5)"></td>
+                <td><input type="button" value="6" onclick="valuess(6)"></td>
+                <td><input type="button" value="-" class="btn" onclick="substraction()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="valuess(7)"></td>
+                <td><input type="button" value="8" onclick="valuess(8)"></td>
+                <td><input type="button" value="9" onclick="valuess(9)"></td>
+                <td><input type="button" value="*" class="btn" onclick="multiplication()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." onclick="valuess('.')"></td>
+                <td><input type="button" value="0" onclick="valuess(0)"></td>
+                <td><input type="button" value="=" onclick="equalsto()"></td>
+                <td><input type="button" value="/" class="btn" onclick="dividation()"></td>
+            </tr>
+        </table>
+    </body>
+    <script src="calculator.js">
+        
+        </script>
+</html>
